@@ -36,7 +36,7 @@ class CronUtils
   ACTIVITY_VERSION = "1.0"
   WF_TASKLIST = "cron_workflow_task_list"
   ACTIVITY_TASKLIST = "cron_activity_task_list"
-  DOMAIN = "Cron"
+  DOMAIN = "Channelr"
 
   def initialize
     @domain = setup_domain(DOMAIN)
