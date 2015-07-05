@@ -3,6 +3,6 @@ require_relative 'starter'
 
 scheduler = Rufus::Scheduler.new
 
-scheduler.every '1h' do
+scheduler.every '10m' do
   Starter.new.start
 end
