@@ -2,6 +2,7 @@
 
 source "http://www.rubygems.org"
 
-gem 'parse-cron', '~> 0.1'
-gem 'aws-flow', '~> 2.4.0'
-gem 'zip', '~> 2.0'
+gem 'aws-flow',        '~> 3.1.0'
+gem 'zip',             '~> 2.0'
+gem 'rufus-scheduler', '~> 3.1.3'
+gem 'rspec',           '~> 3.2.0'
